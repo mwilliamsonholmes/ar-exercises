@@ -11,7 +11,7 @@ puts "----------"
 # Add some data into employees: 
 @store1.employees.create(first_name: "Melissa", last_name: "Holmes", hourly_rate: 60)
 @store1.employees.create(first_name: "Jackson", last_name: "Holmes", hourly_rate: 60)
-@store1.employees.create(first_name: "Roo", last_name: "Rufus", hourly_rate: 30)
+@store1.employees.create(first_name: "Roo", last_name: "Rufus", hourly_rate: 40)
 @store1.employees.create(first_name: "Georgia", last_name: "Williamson", hourly_rate: 55)
 
 # create some more employees using the create method. You can do this by making multiple calls to create (like you have before.) No need to assign the employees to variables though. Create them through the @store# instance variables that you defined in previous exercises. Create a bunch under @store1 (Burnaby) and @store2 (Richmond).
